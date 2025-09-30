@@ -1,0 +1,15 @@
+header {
+  background-color: cadetblue;
+  padding: 10px;
+}
+
+/*text*/
+.header__title {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.header__title--sub {
+    text-align: left;
+}

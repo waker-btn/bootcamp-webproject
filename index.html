@@ -3,12 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./footer.css" />
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>SD Bootcamp Blog</title>
   </head>
 
   <body>
     <header>
-      <h1>What is this site?</h1>
+      <h1 class="header__title">Software Development Bootcamp</h1>
+      <h2 class="header__title header__title--sub">What is this site?</h2>
       <p>
         This is a site made to represent my progress during the TechNative
         Digital Software Development Bootcamp. Each week I will update the site
@@ -16,51 +27,59 @@
       </p>
     </header>
     <main>
-      <section>
-        <h3><a href="week1.html">Week 1</a></h3>
-        <p>
-          Week 1 was purely HTML, which is why this site does not look very pretty!
-        </p>
+      <section class="week week--1">
+        <a class="week__title" href="week1.html">Week 1</a>
+        <h5 class="week__title week__title--sub">HTML</h5>
       </section>
-      <section>
-        <h3><a href="">Week 2</a></h3>
+      <section class="week week--2">
+        <a class="week__title" href="week2.html">Week 2</a>
+        <h5 class="week__title week__title--sub">CSS</h5>
       </section>
-      <section>
-        <h3><a href="">Week 3</a></h3>
+      <section class="week week--3">
+        <a class="week__title" href="">Week 3</a>
+        <h5 class="week__title week__title--sub">???</h5>
       </section>
-      <section>
-        <h3><a href="">Week 4</a></h3>
+      <!-- <section class="week week--4">
+        <a class="week__title" href="">Week 4</a>
+        <h5 class="week__title week__title--sub">???</h5>
       </section>
-      <section>
-        <h3><a href="">Week 5</a></h3>
+      <section class="week week--5">
+        <a class="week__title" href="">Week 5</a>
+        <h5 class="week__title week__title--sub">???</h5>
       </section>
-      <section>
-        <h3><a href="">Week 6</a></h3>
+      <section class="week week--6">
+        <a class="week__title" href="">Week 6</a>
+        <h5 class="week__title week__title--sub">???</h5>
       </section>
-      <section>
-        <h3><a href="">Week 7</a></h3>
+      <section class="week week--7">
+        <a class="week__title" href="">Week 7</a>
+        <h5 class="week__title week__title--sub">???</h5>
       </section>
-      <section>
-        <h3><a href="">Week 8</a></h3>
+      <section class="week week--8">
+        <a class="week__title" href="">Week 8</a>
+        <h5 class="week__title week__title--sub">???</h5>
       </section>
-      <section>
-        <h3><a href="">Week 9</a></h3>
+      <section class="week week--9">
+        <a class="week__title" href="">Week 9</a>
+        <h5 class="week__title week__title--sub">???</h5>
       </section>
-      <section>
-        <h3><a href="">Week 10</a></h3>
+      <section class="week week--10">
+        <a class="week__title" href="">Week 10</a>
+        <h5 class="week__title week__title--sub">???</h5>
       </section>
-      <section>
-        <h3><a href="">Week 11</a></h3>
+      <section class="week week--11">
+        <a class="week__title" href="">Week 11</a>
+        <h5 class="week__title week__title--sub">???</h5>
       </section>
-      <section>
-        <h3><a href="">Week 12</a></h3>
-      </section>
+      <section class="week week--12">
+        <a class="week__title" href="">Week 12</a>
+        <h5 class="week__title week__title--sub">???</h5>
+      </section> -->
     </main>
     <footer>
-      <label for="vhistory">Version History:</label>
-      <select name="vhistory">
-        <option value="Week 1">Week 1</option>
-      </select>
+        <label for="vhistory">Version History:</label>
+        <a class="footer__link" href="./history/week1/index.html">Week 1</a>
+        <a class="footer__link" href="./index.html">Week 2</a>
     </footer>
   </body>
 </html>

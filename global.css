@@ -1,0 +1,34 @@
+/*variable declarations*/
+:root {
+  /*named colour values*/
+  --colour-white: #ffffff;
+
+  /*transitions*/
+  --transition-time: 1s;
+
+  /*borders*/
+
+  /*margins and paddings*/
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0px;
+  font-family: "Outfit", sans-serif;
+}
+
+a {
+  all: unset;
+}
