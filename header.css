@@ -1,6 +1,22 @@
 header {
   background-color: cadetblue;
+  padding: 25px;
+}
+
+.header--theme-week {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header__back {
+  display: block;
+  border-radius: 5px;
+  background-color: blueviolet;
   padding: 10px;
+  min-width: 80px;
+  text-align: center;
 }
 
 /*text*/
@@ -10,6 +26,22 @@ header {
   margin-bottom: 10px;
 }
 
+.header__title--theme-week {
+  margin: auto;
+}
+
 .header__title--sub {
-    text-align: left;
+  text-align: left;
+}
+
+/*responsive*/
+
+@media (max-width: 650px) {
+  .header__back {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  
 }
