@@ -18,11 +18,11 @@ main {
 }
 
 .week--1 {
-  background-image: url("/images/html.png");
+  background-image: url("images/html.png");
 }
 
 .week--2 {
-  background-image: url("/images/css.png");
+  background-image: url("images/css.png");
 }
 
 /*text*/
