@@ -65,6 +65,12 @@ time {
   font-size: large;
 }
 
+.blog__content__link {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #293276;
+}
+
 /*responsive*/
 @media (min-width: 1000px) {
   main {
@@ -87,6 +93,7 @@ time {
 
   .blog__content--media {
     flex-wrap: nowrap;
+    margin-top: 20px;
   }
 }
 
