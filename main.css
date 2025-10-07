@@ -6,7 +6,7 @@ main {
   flex-wrap: wrap;
 }
 
-.main--theme-blog{
+.main--theme-blog {
   background-color: #ffebcd;
   padding: 15px;
 }
@@ -81,8 +81,8 @@ time {
     flex: auto;
   }
 
-  .blog__content {
-    margin: 10px 100px;
+  .main--theme-blog {
+    padding: 10px 10vw;
   }
 
   .blog__content--media {
@@ -110,7 +110,7 @@ time {
     margin: 10px auto;
   }
 
-  .blog__content {
-    margin: 10px 200px;
+  .main--theme-blog {
+    padding: 10px 20vw;
   }
 }
